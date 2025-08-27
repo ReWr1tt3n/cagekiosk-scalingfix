@@ -1,3 +1,10 @@
+# HEY, IF YOU'RE READING THIS THEN THIS IS ABSOLUTELY A FIXED VERSION, NOT JUST COPYING.
+# PLEASE CLONE THE REPOSITORY AND BUILD WITH THE FOLLOWING STEPS BELOW.
+# TO UPDATE, SIMPLY REBUILD AGAIN.
+
+
+
+
 # Cage: a Wayland kiosk
 
 <img src="https://www.hjdskes.nl/img/projects/cage/cage.svg" alt="Cage's logo" width="150px" align="right">
