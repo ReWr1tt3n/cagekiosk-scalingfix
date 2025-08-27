@@ -252,6 +252,17 @@ handle_new_output(struct wl_listener *listener, void *data)
 	wlr_output->data = output;
 	output->server = server;
 
+	// add
+	const char *scale_env = getenv("CAGE_SCALE");
+	if (scale_env) {
+	   float scale = strtof(scale_env, NULL);
+	   if (scale > 0.0f) {
+	      wlr_output->scale = scale;
+	      wlr_log(WLR_INFO, "Set output scale to %f", scale);
+	   }
+	}
+	// end
+
 	wl_list_insert(&server->outputs, &output->link);
 
 	output->commit.notify = handle_output_commit;

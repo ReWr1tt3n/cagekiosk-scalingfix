@@ -42,6 +42,9 @@ _DISPLAY_
 	If compiled with Xwayland support, this will be set to the name of the
 	X display used for Xwayland. Otherwise, probe the X11 backend.
 
+_CAGE_SCALE_
+	Specifies the scaling factor Cage should use. e.g. CAGE_SCALE=1.7 cage -- /usr/bin/example
+
 _WAYLAND_DISPLAY_
 	Specifies the name of the Wayland display that Cage is running on.
 
